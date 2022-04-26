@@ -1,0 +1,23 @@
+{
+  "name": "alomweb",
+  "version": "1.0.0",
+  "description": "Alom Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebazt/AlomWeb.git"
+  },
+  "author": "Team Alom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sebazt/AlomWeb/issues"
+  },
+  "homepage": "https://github.com/Sebazt/AlomWeb#readme",
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
