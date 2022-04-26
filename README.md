@@ -18,4 +18,4 @@
 
 
  <h2>Correo</h2>
- <p>Estaría encantado de recibir un feedback de tu parte,  <a href="mailto:juan.londono29@udea.edu.co">#</a></p> ( sujeto a cambios)
+ <p>Estaría encantado de recibir un feedback de tu parte proximante,  <a href="mailto:juan.londono29@udea.edu.co">#</a></p> ( sujeto a cambios)
