@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/FedericoOlguin/AlonWeb/issues"
   },
-  "homepage": "https://github.com/FedericoOlguin/AlonWeb#readme"
+  "homepage": "https://github.com/FedericoOlguin/AlonWeb#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",    
+    "mongoose": "^6.3.0",
+    "nodemon": "^2.0.15"
+  }
 }
