@@ -1,0 +1,11 @@
+:root {
+  --colorDeFondo: hsl(210, 10%, 23%);
+  --colorPrincipal: hsl(17, 83%, 54%);
+  --colorDeFondoSecundario: hsl(210, 11%, 15%);
+  --colorTexto: #495057;
+  --hiCustom: 2rem;
+  --h2Custom: 1.5rem;
+  --h3Custom: 1rem;
+  --h4Custom: 0.8rem;
+  --pCustom: 1rem;
+}
