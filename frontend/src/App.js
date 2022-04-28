@@ -10,6 +10,7 @@ function App() {
         <Drawer />
         <Routes>
           <Route path='/' element={<HomePage />} />
+          <Route path='*' element={<HomePage />} />
         </Routes>
         <Footer/>
       {/* </div> */}
