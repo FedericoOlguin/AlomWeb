@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Link as LinkRouter } from "react-router-d
 import HomePage from './Pages/Home/HomePege';
 import Drawer from "./components/Drawer/Drawer"
 import Footer from './components/Footer/Footer';
+import Portfolio from './Pages/Portfolio/Portfolio';
 function App() {
   return (
     <BrowserRouter>
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='*' element={<HomePage />} />
+          <Route path='portfolio' element={<Portfolio/>}/>
         </Routes>
         <Footer/>
       {/* </div> */}
