@@ -16,6 +16,7 @@ import GroupsIcon from '@mui/icons-material/Groups';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import ChatIcon from "@mui/icons-material/Chat";
 import "./drawer.css"
+import {Link, Link as LinkRouter} from 'react-router-dom'
 
 export default function TemporaryDrawer() {
     const [state, setState] = React.useState({ left: false });
@@ -37,7 +38,7 @@ export default function TemporaryDrawer() {
         className="drawerContainer"
       >
         {/* <ListItemText className='tituloMenu' primary="Átom" /> */}
-        <h2 className="tituloMenu">Átom</h2>
+        <h2 className="tituloMenu">Álom</h2>
         <List>
           <ListItem button>
             <ListItemIcon>
@@ -53,12 +54,13 @@ export default function TemporaryDrawer() {
             <ListItemText className="linkMenu" primary="Portafolio" />
           </ListItem>
 
+              
           <ListItem button>
             <ListItemIcon>
               <DeveloperModeIcon className="iconMenu" />
             </ListItemIcon>
             <ListItemText className="linkMenu" primary="Servicios" />
-          </ListItem>
+          </ListItem> 
 
           <ListItem button>
             <ListItemIcon>

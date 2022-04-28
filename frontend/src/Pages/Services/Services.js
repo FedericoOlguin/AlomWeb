@@ -15,7 +15,7 @@ const Services = () => {
             <div className="textContainerHero">
 
                 <h1>Átom</h1>
-                <h2 className="textoHero">Ahora si somos losotros</h2>
+                <h2 className="textoHero">Hola Soy un Services </h2>
                 
             </div>
                 <img className="fotoFondo" src={foto} alt="Foto pc" />
