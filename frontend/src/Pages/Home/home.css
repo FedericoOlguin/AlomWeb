@@ -27,4 +27,9 @@
 }
 .textoHero{
 color: var(--colorTexto);
+font-size: var(--pCustom);
+}
+
+.homePage__titulo{
+  font-size: var(--hiCustom);
 }
