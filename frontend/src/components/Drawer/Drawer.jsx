@@ -40,19 +40,23 @@ export default function TemporaryDrawer() {
         {/* <ListItemText className='tituloMenu' primary="Átom" /> */}
         <h2 className="tituloMenu">Álom</h2>
         <List>
-          <ListItem button>
-            <ListItemIcon>
-              <HomeIcon className="iconMenu" />
-            </ListItemIcon>
-            <ListItemText className="linkMenu" primary="Inicio" />
-          </ListItem>
+          <LinkRouter className="router__navbar" to={"/"}>
+            <ListItem button>
+              <ListItemIcon>
+                <HomeIcon className="iconMenu" />
+              </ListItemIcon>
+              <ListItemText className="linkMenu" primary="Inicio" />
+            </ListItem>
+          </LinkRouter>
 
-          <ListItem button>
-            <ListItemIcon>
-              <BusinessCenterIcon className="iconMenu" />
-            </ListItemIcon>
-            <ListItemText className="linkMenu" primary="Portafolio" />
-          </ListItem>
+          <LinkRouter className="router__navbar" to={"/portfolio"}>
+            <ListItem button>
+              <ListItemIcon>
+                <BusinessCenterIcon className="iconMenu" />
+              </ListItemIcon>
+              <ListItemText className="linkMenu" primary="Portafolio" />
+            </ListItem>
+          </LinkRouter>
 
               
           <ListItem button>
