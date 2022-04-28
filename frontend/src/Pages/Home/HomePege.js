@@ -16,7 +16,7 @@ const HomePage = () => {
             <div className="containerPrincipal">
                 <div className="textContainerHero">
 
-                    <h1>Álom</h1>
+                    <h1 className="homePage__titulo">Álom</h1>
                     <h2 className="textoHero">Ahora si somos losotros</h2>
                     <h2 className="textoHero">Ahora si somos losotros</h2>
                 </div>
