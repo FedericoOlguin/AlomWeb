@@ -8,13 +8,13 @@ function App() {
   return (
     <BrowserRouter>
       {/* <div className='App-header'> */}
-        <Drawer />
-        <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='*' element={<HomePage />} />
-          <Route path='portfolio' element={<Portfolio/>}/>
-        </Routes>
-        <Footer/>
+      <Drawer />
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='*' element={<HomePage />} />
+        <Route path='portfolio' element={<Portfolio />} />
+      </Routes>
+      <Footer />
       {/* </div> */}
     </BrowserRouter>
   );

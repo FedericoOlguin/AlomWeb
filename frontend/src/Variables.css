@@ -1,7 +1,7 @@
 :root {
-  --colorDeFondo: hsl(210, 10%, 23%);
-  --colorPrincipal: hsl(17, 83%, 54%);
-  --colorDeFondoSecundario: hsl(210, 11%, 15%);
+  --colorDeFondo:  rgb(34, 38, 42);
+  --colorPrincipal: rgb(235, 96, 40);
+  --colorDeFondoSecundario:hsl(210, 10%, 23%);
   --colorTexto: #495057;
   --hiCustom: 2rem;
   --h2Custom: 1.5rem;
