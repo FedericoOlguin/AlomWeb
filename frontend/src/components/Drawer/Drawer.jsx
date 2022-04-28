@@ -14,6 +14,7 @@ import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 import GroupsIcon from '@mui/icons-material/Groups';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
+import ChatIcon from "@mui/icons-material/Chat";
 import "./drawer.css"
 
 export default function TemporaryDrawer() {
@@ -28,43 +29,52 @@ export default function TemporaryDrawer() {
     };
 
     const list = (anchor) => (
-        <Box
-            sx={{ width: 250 }}
-            role="presentation"
-            onClick={toggleDrawer(anchor, false)}
-            onKeyDown={toggleDrawer(anchor, false)}
-            className="drawerContainer"
-        >
+      <Box
+        sx={{ width: 250 }}
+        role="presentation"
+        onClick={toggleDrawer(anchor, false)}
+        onKeyDown={toggleDrawer(anchor, false)}
+        className="drawerContainer"
+      >
+        {/* <ListItemText className='tituloMenu' primary="Átom" /> */}
+        <h2 className="tituloMenu">Átom</h2>
+        <List>
+          <ListItem button>
+            <ListItemIcon>
+              <HomeIcon className="iconMenu" />
+            </ListItemIcon>
+            <ListItemText className="linkMenu" primary="Inicio" />
+          </ListItem>
 
+          <ListItem button>
+            <ListItemIcon>
+              <BusinessCenterIcon className="iconMenu" />
+            </ListItemIcon>
+            <ListItemText className="linkMenu" primary="Portafolio" />
+          </ListItem>
 
-            {/* <ListItemText className='tituloMenu' primary="Átom" /> */}
-            <h2 className='tituloMenu'>Átom</h2>
-            <List>
-                <ListItem button >
-                    <ListItemIcon>
-                        <HomeIcon className='iconMenu' />
-                    </ListItemIcon>
-                    <ListItemText className='linkMenu' primary="Home" />
-                </ListItem>
-                <ListItem button >
-                    <ListItemIcon>
-                        <BusinessCenterIcon className='iconMenu' />
-                    </ListItemIcon>
-                    <ListItemText className='linkMenu' primary="Portfolio" />
-                </ListItem>
-                <ListItem button >
-                    <ListItemIcon>
-                        <DeveloperModeIcon className='iconMenu' />
-                    </ListItemIcon>
-                    <ListItemText className='linkMenu' primary="Services" />
-                </ListItem>
-                <ListItem button >
-                    <ListItemIcon>
-                        <GroupsIcon className='iconMenu' />
-                    </ListItemIcon>
-                    <ListItemText className='linkMenu' primary="About Us" />
-                </ListItem>
-                {/* {['Prueba1', 'prueba2', 'prueba4', 'prueba5'].map((text, index) => (
+          <ListItem button>
+            <ListItemIcon>
+              <DeveloperModeIcon className="iconMenu" />
+            </ListItemIcon>
+            <ListItemText className="linkMenu" primary="Servicios" />
+          </ListItem>
+
+          <ListItem button>
+            <ListItemIcon>
+              <GroupsIcon className="iconMenu" />
+            </ListItemIcon>
+            <ListItemText className="linkMenu" primary="Sobre nosotros" />
+          </ListItem>
+
+          <ListItem button>
+            <ListItemIcon>
+              <ChatIcon className="iconMenu" />
+            </ListItemIcon>
+            <ListItemText className="linkMenu" primary="Contacto" />
+          </ListItem>
+
+          {/* {['Prueba1', 'prueba2', 'prueba4', 'prueba5'].map((text, index) => (
           <ListItem button key={text}>
             <ListItemIcon>
               {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
@@ -72,8 +82,8 @@ export default function TemporaryDrawer() {
             <ListItemText primary={text} />
           </ListItem>
         ))} */}
-            </List>
-            {/* <Divider />
+        </List>
+        {/* <Divider />
       <List>
         {['All mail', 'Trash', 'Spam'].map((text, index) => (
           <ListItem button key={text}>
@@ -84,7 +94,7 @@ export default function TemporaryDrawer() {
           </ListItem>
         ))}
       </List> */}
-        </Box>
+      </Box>
     );
 
     return (

@@ -4,7 +4,6 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import RoomIcon from '@mui/icons-material/Room';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import { Link as LinkRouter } from "react-router-dom"
-// import logo from '../img/logo.png'
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
 
@@ -14,10 +13,10 @@ const Footer = () => {
     <footer>
       <div className="divNavFooter">
         <ul>
-          <li className=""><LinkRouter className="footerNav" aria-current="page" to={"/"}>Home</LinkRouter></li>
-          <li className=""><LinkRouter className="footerNav " to={"/shop"}>Store</LinkRouter></li>
-          <li><LinkRouter className="footerNav" to={"/signIn"}>Sign In</LinkRouter></li>
-          <li><LinkRouter className="footerNav" to={"/signUp"}>Sign Up</LinkRouter></li>
+          <li className=""><LinkRouter className="footerNav" aria-current="page" to={"/"}>Inicio</LinkRouter></li>
+          <li className=""><LinkRouter className="footerNav " to={"/shop"}>Portafolio</LinkRouter></li>
+          <li><LinkRouter className="footerNav" to={"/signIn"}>Servicios</LinkRouter></li>
+          <li><LinkRouter className="footerNav" to={"/signUp"}>Contacto</LinkRouter></li>
 
         </ul>
       </div>
@@ -35,7 +34,7 @@ const Footer = () => {
 
       </div>
       <div className="divCopy">
-        <h6 className="copy">Copyrigth&copy; 2022 All rights reserved</h6>
+        <h6 className="copy">Copyrigth&copy; 2022 Derechos reservados</h6>
       </div>
     </footer>
   )
