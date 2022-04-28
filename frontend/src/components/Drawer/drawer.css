@@ -1,0 +1,27 @@
+@import "../../Variables.css";
+
+.drawerContainer {
+  background-color: var(--colorDeFondoSecundario) !important;
+  /* background-color: brown; */
+  height: 100vh;
+}
+
+.iconMenu {
+  color: var(--colorPrincipal);
+  z-index: 5;
+  margin-left: 1rem;
+  font-size: xx-large!important;
+}
+
+.linkMenu {
+  color: white;
+}
+.tituloMenu {
+  text-align: center;
+  color: white;
+  margin:1rem;
+}
+
+.router__navbar{
+  text-decoration: none;
+}
