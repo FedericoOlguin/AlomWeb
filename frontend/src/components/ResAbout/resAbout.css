@@ -10,7 +10,7 @@
   margin-bottom: 25rem;
 }
 .aboutContainerBody {
-  width: 50%;
+  width: 60%;
   height: 100%;
   padding: 3rem;
   display: flex;
@@ -19,6 +19,7 @@
 }
 .botonContainer {
   justify-content: center;
+  width: 40%;
 }
 .centrarContainer {
   display: flex;

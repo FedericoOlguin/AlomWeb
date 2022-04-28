@@ -16,7 +16,7 @@ import GroupsIcon from '@mui/icons-material/Groups';
 import MenuOpenIcon from '@mui/icons-material/MenuOpen';
 import ChatIcon from "@mui/icons-material/Chat";
 import "./drawer.css"
-import {Link as LinkRouter} from 'react-router-dom'
+import {Link, Link as LinkRouter} from 'react-router-dom'
 
 export default function TemporaryDrawer() {
     const [state, setState] = React.useState({ left: false });
@@ -58,12 +58,14 @@ export default function TemporaryDrawer() {
             </ListItem>
           </LinkRouter>
 
+          <LinkRouter className="router__navbar" to={"/services"}>   
           <ListItem button>
             <ListItemIcon>
               <DeveloperModeIcon className="iconMenu" />
             </ListItemIcon>
             <ListItemText className="linkMenu" primary="Servicios" />
-          </ListItem>
+          </ListItem> 
+          </LinkRouter>
 
           <ListItem button>
             <ListItemIcon>
