@@ -15,7 +15,7 @@ const Footer = () => {
         <ul>
           <li className=""><LinkRouter className="footerNav" aria-current="page" to={"/"}>Inicio</LinkRouter></li>
           <li className=""><LinkRouter className="footerNav " to={"/shop"}>Portafolio</LinkRouter></li>
-          <li><LinkRouter className="footerNav" to={"/signIn"}>Servicios</LinkRouter></li>
+          <li><LinkRouter className="footerNav" to={"/services"}>Servicios</LinkRouter></li>
           <li><LinkRouter className="footerNav" to={"/signUp"}>Contacto</LinkRouter></li>
 
         </ul>
