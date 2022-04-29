@@ -29,9 +29,12 @@
 
 .textCenter {
   text-align: center;
+  font-size: var(--h2Custom);
 }
 .textResAbout {
-  color: white;
+  color: var(--colorParrafoSecundario);
+  font-size: var(--pCustom);
+  
 }
 
 /* From uiverse.io by @adamgiebl */
@@ -67,12 +70,13 @@
   font-weight: 700;
   color: white;
   transition: all 0.5s ease-in-out;
-  animation: gradient 4s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
+  animation: gradient 5s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
 }
 
 .buttonAbout:hover {
   animation: gradient 3s infinite;
-  transform: scale(1.05);
+  transform: scale(1.01);
+  cursor: pointer;
 }
 
 .buttonAbout:active {

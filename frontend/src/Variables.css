@@ -2,10 +2,11 @@
   --colorDeFondo:  rgb(34, 38, 42);
   --colorPrincipal: rgb(235, 96, 40);
   --colorDeFondoSecundario:hsl(210, 10%, 23%);
+  --colorParrafoSecundario:rgb(190, 178, 178);
   --colorTexto: #495057;
-  --hiCustom: 2rem;
-  --h2Custom: 1.5rem;
-  --h3Custom: 1rem;
-  --h4Custom: 0.8rem;
-  --pCustom: 1rem;
+  --h1Custom: 5.1rem;
+  --h2Custom: 3rem;
+  --h3Custom: 2.5rem;
+  --h4Custom: 1.8rem;
+  --pCustom: 1.5rem;
 }
