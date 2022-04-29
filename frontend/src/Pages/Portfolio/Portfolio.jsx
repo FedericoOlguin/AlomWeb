@@ -21,14 +21,14 @@ function Portfolio() {
         <h2 className="portfolio__subtitulo">Álom</h2>
         <p className="portfolio__parrafo">
           Somos una empresa que nace de la visión de un grupo de amigos y su
-          pasión por la programación. Construimos soluciones de Software de forma
-          inteligente, orientadas a las necesidades y requerimientos del cliente
-          cuidando siempre la experiencia del usuario. Estamos comprometidos con
-          cada proyecto que realizamos y siempre estamos buscando escalar
-          nuestra experiencia. Como parte de la vivencia del equipo hemos
-          desarrollado aplicaciones desde la conformación de su manejo de datos
-          (backend) hasta la visualización que va a experimentar el usuario
-          (frontend y UI), tanto a nivel web como mobile.
+          pasión por la programación. Construimos soluciones de Software de
+          forma inteligente, orientadas a las necesidades y requerimientos del
+          cliente cuidando siempre la experiencia del usuario. Estamos
+          comprometidos con cada proyecto que realizamos y siempre estamos
+          buscando escalar nuestra experiencia. Como parte de la vivencia del
+          equipo hemos desarrollado aplicaciones desde la conformación de su
+          manejo de datos (backend) hasta la visualización que va a experimentar
+          el usuario (frontend y UI), tanto a nivel web como mobile.
         </p>
       </div>
       <div id="div__portfolio-filtros">
@@ -37,7 +37,7 @@ function Portfolio() {
       </div>
       <div id="div__portfolio-cartas">
         <Card />
-  
+        <Card />
       </div>
     </>
   );

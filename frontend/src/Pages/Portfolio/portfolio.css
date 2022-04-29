@@ -94,6 +94,6 @@ background-image: linear-gradient(
   width: 100%;
   min-height: 40vh;
   flex-wrap: wrap;
-  background-color: seagreen;
+ /*  background-color: seagreen; */
   justify-content: center;
 }

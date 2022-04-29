@@ -6,14 +6,14 @@
   margin: 1.5rem 2.5rem;
   width: 365px;
   height: 100%;
-  background: radial-gradient(
+  /* background: radial-gradient(
     rgba(17, 17, 17, 0.336) 50%,
     rgba(0, 0, 0, 0.452) 100%
-  );
+  ); */
   overflow: hidden;
   position: relative;
   border-radius: 8px;
-  box-shadow: 1px 1px 5px #0a0a0a;
+ /*  box-shadow: 1px 1px 5px #0a0a0a; */
 }
 
 
@@ -81,28 +81,13 @@
 .card:hover .description>.boton-city{
   opacity: 1;
   color: var(--colorParrafoSecundario);
+  transform: scale(1.01);
+  
 }
 
-/* 
 
-.card:hover .description .boton-city {
-  opacity: 1;
+.card:active .description>.boton-city{
+  animation: gradient 3s infinite;
+  transform: scale(0.9);
 }
 
-.description .boton-city{
-    color: #fff;
-    background-color: #006d77;
-    display: inline-block;
-    padding: .3rem .5rem;
-    text-decoration: none;
-    border-radius: .5rem;
-    opacity: 0;
-    transition: all 0.3s ease-out 0.4;
-    font-size: 1.2rem;
-    border: none;
-}
-
-.description .boton-city:hover{
-    background: #83c5be;
-    color: #000 !important;
-} */

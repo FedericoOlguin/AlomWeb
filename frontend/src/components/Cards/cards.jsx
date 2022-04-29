@@ -16,7 +16,6 @@ function Card() {
           </div>
           <button className="boton-city">
             Demo
-            <ArrowRightAltIcon />
           </button>
         </div>
       </div>
@@ -30,7 +29,6 @@ function Card() {
           </div>
           <button className="boton-city">
             Demo
-            <ArrowRightAltIcon />
           </button>
         </div>
       </div>
