@@ -1,12 +1,29 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./portfolio.css";
 import SvgService from "../../Media/services.svg";
 import Card from "../../components/Cards/cards";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
+import scrollUp from "../../Media/scrollUp.svg";
 
 function Portfolio() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY <= 500) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeColor);
+
   return (
     <>
-      <div className="div__portfolio-titulo">
+      <div id="titulo" className="div__portfolio-titulo">
         <h1 className="portfolio__titulo">Nuestro Portafolio</h1>
       </div>
 
@@ -16,6 +33,15 @@ function Portfolio() {
           <img src="" alt="" />
         </div>
       </div>
+
+      <a href="#titulo">
+        {/* <ArrowUpwardIcon className={color ? ("scarollUp") : ("scarollUp2")} /> */}
+        <img
+          alt="scroll"
+          src={scrollUp}
+          className={color ? "scarollUp" : "scarollUp2"}
+        />
+      </a>
 
       <div className="div__portfolio-parrafo">
         <h2 className="portfolio__subtitulo">Álom</h2>
