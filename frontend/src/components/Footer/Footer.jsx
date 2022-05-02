@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css"
 import InstagramIcon from '@mui/icons-material/Instagram';
 import RoomIcon from '@mui/icons-material/Room';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+
 import { Link as LinkRouter } from "react-router-dom"
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
@@ -21,7 +21,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="diVFooter">
-        {/* <img src={logo} alt="logo" className="imgFooter" /> */}
+
       </div>
       <div className="divIcon">
         <ul>
