@@ -19,7 +19,7 @@ function Card() {
           </button>
         </div>
       </div>
-
+      {/*TODO factorize esta clase*/}
       <div className="card">
         <img src={imgWeb} alt="Producto" className="img-card" />
 
