@@ -24,6 +24,7 @@ const HomePage = () => {
                 <img className="homePage__fotoFondo" src={foto} alt="Foto pc" />
             </div>
             <ResAbout />
+            <ResServices/>
 
         </>
     )
