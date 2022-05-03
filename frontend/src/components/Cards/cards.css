@@ -55,7 +55,7 @@
 .boton-city{
   position: absolute;
   top: 2rem;
-  right: 1rem;
+  right: 2.6rem;
   opacity: 0;  
   background-image: linear-gradient(
     to right bottom,
@@ -80,7 +80,6 @@
 
 .card:hover .description>.boton-city{
   opacity: 1;
-  color: var(--colorParrafoSecundario);
   transform: scale(1.01);
   
 }
@@ -90,4 +89,5 @@
   animation: gradient 3s infinite;
   transform: scale(0.9);
 }
+
 

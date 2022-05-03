@@ -1,0 +1,71 @@
+@import "../../Variables.css";
+
+.section__contacto{
+  width: 100%;
+  height: 70vh;
+  background-color: var(--colorDeFondo);
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contenedor__contacto{
+  width: 40%;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-contact{
+  width: 450px;
+  align-self: center;
+}
+
+.boton-contact{
+  background-image: linear-gradient(
+    to right bottom,
+    #eb6028,
+ 
+    #eb6028
+  );
+  
+  background-size: 800% 400%;
+  padding: 1em 2em;
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  animation: gradient 5s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both;
+  cursor: pointer;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
+}
+
+.boton-contact:hover{
+  opacity: 1;
+  transform: scale(1.01);
+  
+}
+
+
+.boton-contact:active{
+  animation: gradient 3s infinite;
+  transform: scale(0.9);
+}
+
+.link-contact{
+  margin: .6rem 0;
+  text-decoration: none;
+  color: var(--colorParrafoSecundario);
+  font-size: var(--h3Custom);
+}
+
+.subtitulo-contact{
+  font-size: var(--h3Custom);
+  margin: .6rem 0;
+  color: var(--colorParrafoSecundario);
+}

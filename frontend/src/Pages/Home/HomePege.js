@@ -2,7 +2,7 @@ import React from "react";
 import "../Home/home.css"
 import foto from "../../Media/HomePicture.svg"
 import ResAbout from "../../components/ResAbout/ResAbout";
-
+import Contactohome from "../../components/ContactoHome/ContactoHome";
 
 
 
@@ -23,6 +23,7 @@ const HomePage = () => {
                 <img className="fotoFondo" src={foto} alt="Foto pc" />
             </div>
             <ResAbout />
+            <Contactohome/>
 
         </>
     )
