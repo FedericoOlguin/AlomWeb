@@ -29,17 +29,28 @@
 
 .textCenter {
   text-align: center;
+  font-size: var(--h2Custom);
 }
 .textResAbout {
-  color: white;
+  color: var(--colorParrafoSecundario);
+  font-size: var(--pCustom);
+  
 }
 
 /* From uiverse.io by @adamgiebl */
 .buttonAbout {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right bottom,
     #22262a,
  
+    #eb6028
+  ); */
+  background-image: linear-gradient(
+    to right bottom,
+    #783013,
+    #933b18,
+    #b0471d,
+    #cd5423,
     #eb6028
   );
   /* background-image: linear-gradient(
@@ -64,7 +75,8 @@
 
 .buttonAbout:hover {
   animation: gradient 3s infinite;
-  transform: scale(1.05);
+  transform: scale(1.01);
+  cursor: pointer;
 }
 
 .buttonAbout:active {

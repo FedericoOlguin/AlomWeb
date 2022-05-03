@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css"
 import InstagramIcon from '@mui/icons-material/Instagram';
 import RoomIcon from '@mui/icons-material/Room';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+
 import { Link as LinkRouter } from "react-router-dom"
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 
@@ -14,14 +14,14 @@ const Footer = () => {
       <div className="divNavFooter">
         <ul>
           <li className=""><LinkRouter className="footerNav" aria-current="page" to={"/"}>Inicio</LinkRouter></li>
-          <li className=""><LinkRouter className="footerNav " to={"/shop"}>Portafolio</LinkRouter></li>
-          <li><LinkRouter className="footerNav" to={"/signIn"}>Servicios</LinkRouter></li>
+          <li className=""><LinkRouter className="footerNav " to={"/portfolio"}>Portafolio</LinkRouter></li>
+          <li><LinkRouter className="footerNav" to={"/services"}>Servicios</LinkRouter></li>
           <li><LinkRouter className="footerNav" to={"/signUp"}>Contacto</LinkRouter></li>
 
         </ul>
       </div>
       <div className="diVFooter">
-        {/* <img src={logo} alt="logo" className="imgFooter" /> */}
+
       </div>
       <div className="divIcon">
         <ul>

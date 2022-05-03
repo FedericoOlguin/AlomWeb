@@ -1,0 +1,93 @@
+@import "../../Variables.css";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 2.5rem;
+  width: 365px;
+  height: 100%;
+  /* background: radial-gradient(
+    rgba(17, 17, 17, 0.336) 50%,
+    rgba(0, 0, 0, 0.452) 100%
+  ); */
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+ /*  box-shadow: 1px 1px 5px #0a0a0a; */
+}
+
+
+.img-card {
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+}
+
+.card:hover .img-card{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.description {
+  width: 100%; 
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.div-h3{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-h3{  
+  color: var(--colorPrincipal);
+  font-size: var(--h3Custom);
+  letter-spacing: .890px;
+  text-align: center;
+  padding: .5rem;
+}
+
+.boton-city{
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  opacity: 0;  
+  background-image: linear-gradient(
+    to right bottom,
+    #eb6028,
+ 
+    #eb6028
+  );
+  background-size: 800% 400%;
+  padding: 1em 2em;
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  margin: 0 2rem;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+.card:hover .description>.boton-city{
+  opacity: 1;
+  color: var(--colorParrafoSecundario);
+  transform: scale(1.01);
+  
+}
+
+
+.card:active .description>.boton-city{
+  animation: gradient 3s infinite;
+  transform: scale(0.9);
+}
+
