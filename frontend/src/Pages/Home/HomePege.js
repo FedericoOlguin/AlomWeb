@@ -2,6 +2,7 @@ import React from "react";
 import "../Home/home.css"
 import foto from "../../Media/HomePicture.svg"
 import ResAbout from "../../components/ResAbout/ResAbout";
+import ResServices from "../../components/ResServices/ResServices"
 
 
 
