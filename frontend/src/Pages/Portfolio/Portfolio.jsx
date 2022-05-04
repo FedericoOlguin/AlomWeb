@@ -33,7 +33,7 @@ function Portfolio() {
           <img src="" alt="" />
         </div>
       </div>
-
+{/* TODO COMENTARIO PARA BORRAR */}
       <a href="#titulo">
         {/* <ArrowUpwardIcon className={color ? ("scarollUp") : ("scarollUp2")} /> */}
         <img

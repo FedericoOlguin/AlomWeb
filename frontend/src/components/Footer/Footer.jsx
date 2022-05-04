@@ -29,7 +29,7 @@ const Footer = () => {
           <li><a className="nav-link" target="_blank" rel="noreferrer nopener" href="https://www.google.es/maps/place/ONI+Coffee+Shop/@48.8688602,2.3555228,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66e0e33f60c7b:0x509e16fe7178f322!8m2!3d48.8688567!4d2.3577115?hl=es"><RoomIcon className="iconFooter" /></a></li>
 
           <li><a className="nav-link" target="_blank" rel="noreferrer nopener" href="https://www.instagram.com/"><InstagramIcon className="iconFooter" /></a></li>
-          <li><a className="nav-link" target="_blank" rel="noreferrer nopener" href="mailto:macchiatoweb10@gmail.com"><MailOutlineIcon className="iconFooter" /></a></li>
+          <li><a className="nav-link" target="_blank" rel="noreferrer nopener" href="mailto:"><MailOutlineIcon className="iconFooter" /></a></li>
         </ul>
 
       </div>
